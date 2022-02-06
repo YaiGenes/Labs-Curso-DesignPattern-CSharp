@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DocumentFormat.OpenXml.Spreadsheet;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,15 +8,19 @@ namespace Problem
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            var report = new CourseReport();
+            Console.WriteLine("Halllo");
+
+            CourseReport report = new CourseReport();
+            SaveFiles saveFiles = new SaveFiles();
+
             report.AddEntry(new CourseReportEntry{ Name = "Patrones de diseño", Students= 1000, Rating = 5 });
             report.AddEntry(new CourseReportEntry { Name = "Flutter", Students = 1900, Rating = 4.5 });
 
             Console.WriteLine(report.ToString());
 
-            report.SaveToFile(@"Reports", "WorkReport.txt");
+            saveFiles.SaveToFile(@"Reports", "WorkReport.txt", report);
         }
     }
 
@@ -36,19 +41,23 @@ namespace Problem
         }
 
         public void AddEntry(CourseReportEntry entry) => _entries.Add(entry);
-
         public void RemoveEntryAt(int index) => _entries.RemoveAt(index);
 
-        public void SaveToFile(string directoryPath, string fileName)
+        public override string ToString() =>
+            string.Join(Environment.NewLine, _entries.Select(x => $"Curso: {x.Name}, Estudiantes: {x.Students}, Valoración: {x.Rating}"));
+    }
+
+   
+    public class SaveFiles
+    {
+         public void SaveToFile(string directoryPath, string fileName, CourseReport report)
         {
             if (!Directory.Exists(directoryPath))
             {
                 Directory.CreateDirectory(directoryPath);
             }
 
-            File.WriteAllText(Path.Combine(directoryPath, fileName), ToString());
+            File.WriteAllText(Path.Combine(directoryPath, fileName), report.ToString());
         }
-        public override string ToString() =>
-            string.Join(Environment.NewLine, _entries.Select(x => $"Curso: {x.Name}, Estudiantes: {x.Students}, Valoración: {x.Rating}"));
     }
 }

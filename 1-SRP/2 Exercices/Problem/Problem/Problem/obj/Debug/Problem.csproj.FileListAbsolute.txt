@@ -12,3 +12,14 @@ D:\Projects\design-patterns-net\curso\solid\1-SRP\2 Exercices\Problem\Problem\Pr
 D:\Projects\design-patterns-net\curso\solid\1-SRP\2 Exercices\Problem\Problem\Problem\obj\Debug\Problem.csproj.CoreCompileInputs.cache
 D:\Projects\design-patterns-net\curso\solid\1-SRP\2 Exercices\Problem\Problem\Problem\obj\Debug\Problem.exe
 D:\Projects\design-patterns-net\curso\solid\1-SRP\2 Exercices\Problem\Problem\Problem\obj\Debug\Problem.pdb
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\bin\Debug\Problem.exe.config
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\bin\Debug\Problem.exe
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\bin\Debug\Problem.pdb
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\obj\Debug\Problem.csproj.AssemblyReference.cache
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\obj\Debug\Problem.csproj.SuggestedBindingRedirects.cache
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\obj\Debug\Problem.csproj.CoreCompileInputs.cache
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\obj\Debug\Problem.exe
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\obj\Debug\Problem.pdb
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\yaise\Source\Repos\Labs-Curso-DesignPattern-CSharp\1-SRP\2 Exercices\Problem\Problem\Problem\obj\Debug\Problem.csproj.CopyComplete
